@@ -1,4 +1,9 @@
-﻿.header {
+﻿@font-face {
+    src: url(Fonts/NBA-Knicks.ttf);
+    font-family: knicks;
+  }
+
+.header {
     color: white;
     display: flex;
     justify-content: center;
@@ -15,6 +20,6 @@
     font-size: 80px;
     margin: auto 0;
     font-weight: bold;
-    font-family: Brush Script MT, Script;
+    font-family: knicks;
     color: #ffe6ee;
 }
